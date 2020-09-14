@@ -4,12 +4,6 @@ package com.season.engine.base;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * 模板生成父类
- *
- * @author fengshuonan
- * @date 2017-05-08 20:17
- */
 public class AbstractTemplateEngine {
 
     private boolean ret;

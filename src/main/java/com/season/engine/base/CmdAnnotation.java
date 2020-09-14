@@ -7,13 +7,6 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-/**
- * 拥有该注解的方法会被认为：对外提供的接口
- * The methods which contain this annotation would be considered: the interface provided to the outside world
- *
- * @author tangyi
- * @date 2018/12/5
- */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)
 public @interface CmdAnnotation {
